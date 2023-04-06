@@ -5,7 +5,7 @@ import '../Navigation/Navigation.css'
 function Navigation() {
   return (
     <div>
-      
+      Navigation Bar
     </div>
   );
 }

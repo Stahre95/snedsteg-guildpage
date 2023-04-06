@@ -3,7 +3,7 @@ import '../ActiveView/ActivePage.css'
 function ActivePage() {
   return (
     <div>
-      
+      ActivePage
     </div>
   );
 }
