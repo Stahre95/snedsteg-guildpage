@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
-import ActivePage from './components/ActiveView/ActivePage';
+import HomePage from './components/HomeView/HomePage';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <main>
-       <ActivePage />
+       <HomePage />
       </main>
     </div>
   );
