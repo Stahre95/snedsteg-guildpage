@@ -1,0 +1,57 @@
+.about-grid-wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+
+.left {
+    text-align: center;
+    
+}
+
+.right {
+    text-align: center;
+}
+
+.col-title {
+    padding-top: 10vh;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.about-text-container {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 3em;
+    font-size: 1.5em;
+}
+
+.raider-progress {
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.seperator-line {
+    border-right: 0.6em solid #DD4D00;
+    height: 75%;
+    margin-top: -45em;
+}
+
+.progress-container {
+    height: 312px;
+}
+
+.prev-tier-container {
+    margin-top: 20em;
+    height: 312px;
+}
+
+.raid-title {
+    padding-top: 3em;
+    font-size: 2em;
+}
+
+.progress {
+    font-size: 1.5em;
+}
