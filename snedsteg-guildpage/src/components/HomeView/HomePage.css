@@ -1,0 +1,29 @@
+.content-container {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero-container {
+    height: 100vh;
+}
+
+.about-us-container {
+    height: 100vh;
+    background-color: #202020;
+}
+
+.roster-container {
+    background-color: #DD4D00;
+    height: 100vh;
+}
+
+.video-container {
+    height: 100vh;
+    background-color: #202020;
+}
+
+.quotes-container {
+    background-color: #DD4D00;
+    height: 100vh;
+}

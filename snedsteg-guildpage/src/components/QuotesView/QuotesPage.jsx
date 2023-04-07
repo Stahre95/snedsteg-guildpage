@@ -1,9 +1,9 @@
 import React from 'react';
-import '../QuotesView/Quotes.css'
+import '../QuotesView/QuotesPage.css'
 function Quotes() {
   return (
     <div>
-      
+      QuotesPage
     </div>
   );
 }
