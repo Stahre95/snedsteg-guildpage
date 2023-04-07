@@ -7,10 +7,17 @@ import RosterPage from '../RosterView/RosterPage';
 import VideoPage from '../VideoView/VideoPage';
 import QuotesPage from '../QuotesView/QuotesPage';
 
+import background from '../Media/Images/dragonflight_forge.jpg'
+
 function HomePage() {
   return (
     <div className="content-container">
-      <div className="hero-container">
+      <div className="hero-container" style={{
+      backgroundImage: `url(${background})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}>
         <HeroBanner />
       </div>
       
