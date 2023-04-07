@@ -38,10 +38,11 @@ function handleClick () {
                 </div>
             <div className={menuClicked ? "navigation-menu-open" : "navigation-menu"}>
                 <div className="navigation-menu-item" onClick="">Om Oss</div>
+                <div className="navigation-menu-item" onClick="">Roster</div>
                 <div className="navigation-menu-item" onClick="">Video</div>
                 <div className="navigation-menu-item" onClick="">Citat</div>
-                <div className="navigation-menu-item" onClick=""><span>Apply</span></div>
             </div>
+            <div className="navigation-apply-btn" onClick=""><span>Apply</span></div>
         </div>
   );
 }

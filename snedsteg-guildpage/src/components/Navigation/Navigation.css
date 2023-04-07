@@ -14,10 +14,13 @@
 
 .navigation-menu-item {
     padding: 1em;
+    font-size: 1.5em;
 }
 
-.navigation-menu-item span {
+.navigation-apply-btn {
     color: #FF7C0A;
+    padding-right: 1em;
+    font-size: 1.5em;
 }
 
 
@@ -28,12 +31,11 @@
 
 .navigation-name {
     padding: 1em;
-    margin-right: auto;
 }
 
 .navigation-name span {
     color: #FF7C0A;
-    font-size: 20px;
+    font-size: 2em;
 }
 
 .navigation-menu-icon {
