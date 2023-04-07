@@ -17,11 +17,11 @@ code {
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.5em;
 }
 ::-webkit-scrollbar-track {
   background: #3f3f3f;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffdf6c;
+  background: #FF7C0A;
 }
