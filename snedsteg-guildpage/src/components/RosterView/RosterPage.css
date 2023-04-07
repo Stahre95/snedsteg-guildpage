@@ -1,0 +1,27 @@
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 15px;
+}
+
+.container-title {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-size: 3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .roster-grid{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+  @media screen and (max-width: 1000px) {
+    .roster-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

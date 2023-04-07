@@ -1,0 +1,120 @@
+.card-container {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.card {
+    max-width: 450px;
+    border: 0;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .container-card {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 25px;
+    padding: 25px;
+    min-height: 175px;
+  }
+  
+
+  .bg-white-box{
+    position: relative;
+  }
+  
+  .bg-white-box::after {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    content: "";
+    z-index: -1;
+    border-radius: 45px;
+  }
+  
+  
+  .bg-white-box::after {
+    background: linear-gradient(71deg, #121013, #b0afb0, #121013);
+  }
+
+  
+  .card-title {
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 28px;
+    padding-bottom: 8px;
+  }
+  
+  .card-description {
+    font-weight: 600;
+    line-height: 32px;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    max-width: 470px;
+  }
+
+  .card-stream {
+    font-weight: 600;
+    line-height: 32px;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    max-width: 470px;
+    text-decoration: underline;
+    cursor: pointerw;
+  }
+
+  .card-icon{
+    width: 56px;
+    margin-left: auto;
+  }
+  
+  .row{
+    display: flex;
+    align-items: center;
+  }
+
+  .card-role{
+    font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 1920px){
+    .container-card {
+        min-height: 150px;
+      }
+
+    .card {
+        max-width: 300px;
+        border: 0;
+        width: 100%;
+        margin-inline: auto;
+      }
+
+      .card-title {
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        font-size: 20px;
+      }
+
+      .card-icon {
+        width: 48px;
+      }
+      .card-role{
+        font-size: 1.3em;
+      }
+
+      .card-description{
+        margin-top: -1em;
+        font-size: 14px;
+      }
+      .card-stream {
+        font-size: 14px;
+      }
+}

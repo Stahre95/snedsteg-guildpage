@@ -7,7 +7,9 @@ import RosterPage from '../RosterView/RosterPage';
 import VideoPage from '../VideoView/VideoPage';
 import QuotesPage from '../QuotesView/QuotesPage';
 
-import background from '../Media/Images/dragonflight_forge.jpg'
+import background from '../Media/Images/dragonflight_forge.jpg';
+
+import data from '../data/data';
 
 function HomePage() {
   return (
@@ -26,7 +28,7 @@ function HomePage() {
       </div>
 
       <div className="roster-container">
-        <RosterPage />
+        <RosterPage data={data.roster}/>
       </div>
 
       <div className="video-container">

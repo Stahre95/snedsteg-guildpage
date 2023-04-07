@@ -55,3 +55,18 @@
 .progress {
     font-size: 1.5em;
 }
+
+@media screen and (max-width: 1920px){
+    .raider-progress{
+        transform: scale(0.8);
+        margin-left: 0%;
+    }
+
+    .prev-tier-container {
+        margin-top: 15em;
+    }
+    .raid-title {
+        padding-top: 1em;
+        font-size: 2em;
+    }
+}
