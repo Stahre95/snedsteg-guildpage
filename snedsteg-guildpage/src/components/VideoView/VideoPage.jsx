@@ -3,7 +3,7 @@ import '../VideoView/VideoPage.css'
 function VideoPage() {
   return (
     <div>
-      
+      VideoPage
     </div>
   );
 }
